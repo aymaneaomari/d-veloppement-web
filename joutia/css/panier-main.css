@@ -1,0 +1,182 @@
+@font-face {
+    font-family: work Sans;
+    src: url(../fontstext/WorkSans-Medium.ttf);
+    font-family: work sans l;
+    src: url(../fontstext/WorkSans-Light.ttf);
+}
+*{
+    margin: 0px;
+
+}
+.panier-main{
+    display: flex;
+    flex-direction: row;
+    padding:20PX;
+    background-color: whitesmoke;
+
+}
+/*left part on panier main */
+.panier-chosed-products{
+    display: flex;
+    flex-direction:column;
+    flex: 4;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.288);
+    margin:10px ;
+}
+.panier-chosed-products .header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.panier-chosed-products .header h1{
+color: black;
+font-weight: bold;
+}
+
+.chosed-product{
+display: flex;
+margin-top: 10px;
+padding: 10px;
+border-bottom: 1px solid black;
+height: 150px;
+}
+.chosed-product-Image{
+    object-fit:contain;
+    width: 120px;
+    align-self: center;
+}
+.chosed-product-informations{
+    flex:1;
+    padding-left: 10px;
+}
+.chosed-product-name{
+    font-family: work Sans;
+    font-size: 16px;
+}
+.chosed-product-qte{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.chosed-product-qte P{
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    
+
+}
+.chosed-product-qte button{
+    width: 40px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    font-size: bold;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    border: none;
+}
+.chosed-product-qte button:hover{
+    width: 60px;
+    padding-right: 5px;
+    background-color:white ;
+    color: black;
+
+}
+.Total-to-pay{
+    font-weight: bold;
+    font-family: work Sans;
+    font-size: 18PX;
+    margin-bottom: 0;
+    text-align: end;
+    padding: 10px;
+}
+.Total-to-pay span{
+    padding-left:20px;
+    font-size: 22px;
+}
+.remove-product-panier{
+    align-self: start;
+    border: none;
+    font-size: 20PX;
+    font-weight: BOLD;
+    background-color: white;
+
+}
+
+/*right part on panier main */
+.payment{
+flex:3;
+display: flex;
+flex-direction:column;
+background-color: white;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.288);
+margin:10px ;
+padding: 20PX;
+height: 320PX;
+}
+.payment-total{
+    font-family:work Sans;
+    font-weight: bold;
+    padding-bottom: 10PX;
+    border-bottom: 0.5px solid black;
+}
+.payment-sousTotal-Div{
+display: flex;
+justify-content:space-between ;
+align-items: center;
+}
+.payment-sousTotal{
+    color: rgb(26, 26, 26);
+    font-size: 18px;
+    font-family: work Sans;
+    font-weight: bold;
+    }
+.payment-Button{
+    background-color: black;
+    color: white;
+    border:none;
+    padding: 5px 0px;
+    font-family: work Sans;
+    font-weight: bold;
+    margin: 10px 0px;
+    transition: all 0.7s linear;
+    -webkit-transition: all 0.7s linear;
+    -moz-transition: all 0.7s linear;
+    -ms-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+}
+.payment-Button:hover{
+        background-color: white;
+        color: black;
+
+    }
+.payment-acceptation
+{
+    font-weight: bold;
+    font-size: 20px;
+    }
+.payment-acceptation-div{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.payment-acceptation-img{
+    width: 50px;
+    object-fit: cover;
+    padding: 3px;
+}
+.payment-lastText{
+    font-size: 14px;
+    font-weight:700 ;
+    font-family: work Sans;
+    color :black;
+    margin: 0;
+    padding: 5px 0px;
+    margin-top: 10px;
+
+}
+    

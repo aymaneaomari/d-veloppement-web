@@ -1,0 +1,171 @@
+@font-face {
+    font-family: work Sans;
+    src: url(../fontstext/WorkSans-Medium.ttf);
+}
+.main1 button{
+    padding: 18px 30px;
+    font-family: work Sans;
+    border: none;
+    background-color: white;
+    transition: all 0.7s linear ;
+    -webkit-transition: all 0.7s linear ;
+    -moz-transition: all 0.7s linear ;
+    -ms-transition: all 0.7s linear ;
+    -o-transition: all 0.7s linear ;
+}
+.main1 button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.Shop-the-Fall{
+font-family:  work Sans ;
+color : black;
+text-decoration: none;
+}
+.main1{
+    transition: all 0.7s linear ;
+    -webkit-transition: all 0.7s linear ;
+    -moz-transition: all 0.7s linear ;
+    -ms-transition: all 0.7s linear ;
+    -o-transition: all 0.7s linear ;
+}
+.main1text{
+    transition: all 0.7s linear ;
+    -webkit-transition: all 0.7s linear ;
+    -moz-transition: all 0.7s linear ;
+    -ms-transition: all 0.7s linear ;
+    -o-transition: all 0.7s linear ;
+    }
+.main1 button{
+transition: all 0.7s linear ;
+-webkit-transition: all 0.7s linear ;
+-moz-transition: all 0.7s linear ;
+-ms-transition: all 0.7s linear ;
+-o-transition: all 0.7s linear ;
+} 
+.main1 button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+@media (min-width:1000px) {
+    .main1{
+        background-image: url(../assets/img1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .main1text{
+        text-align: center;
+        font-family: work Sans;
+        font-weight: 300;
+        font-size: 70px;
+        color: white;
+        text-transform: uppercase;
+        }
+    .main1 button{
+    padding: 18px 30px;
+    font-family: work Sans;
+    border: none;
+    background-color: white;
+    } 
+}
+
+@media (max-width:1000px) and (min-width:800px) {
+    .main1{
+        background-image: url(../assets/img1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .main1text{
+        text-align: center;
+        font-family: work Sans;
+        font-weight: 300;
+        font-size: 50px;
+        color: white;
+        text-transform: uppercase;
+        }
+    .main1 button{
+    padding: 10px 20px;
+    font-family: work Sans;
+    border: none;
+    background-color: white;
+    } 
+
+    }    
+
+@media (max-width:800px) and (min-width:600px) {
+    .main1{
+        background-image: url(../assets/img1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .main1text{
+        text-align: center;
+        font-family: work Sans;
+        font-weight: 300;
+        font-size: 28px;
+        color: white;
+        text-transform: uppercase;
+        }
+    .main1 button{
+    padding: 8px 16px;
+    font-family: work Sans;
+    border: none;
+    background-color: white;
+    } 
+    }    
+    
+@media (max-width:600px) {
+    .main1{
+        background-image: url(../assets/img1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .main1text{
+        text-align: center;
+        font-family: work Sans;
+        font-weight: 300;
+        font-size: 30px;
+        color: white;
+        text-transform: uppercase;
+        }
+    .main1 button{
+    padding: 4px 12px;
+    font-family: work Sans;
+    border: none;
+    background-color: white;
+    } 
+    }    

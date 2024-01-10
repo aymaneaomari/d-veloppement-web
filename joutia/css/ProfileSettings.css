@@ -1,0 +1,128 @@
+@font-face {
+    font-family: work Sans;
+    src: url(../fontstext/WorkSans-Medium.ttf);
+    font-family: work sans l;
+    src: url(../fontstext/WorkSans-Light.ttf);
+}
+.header-profileSettings{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-profileSettings h1{
+    font-family: work Sans l;
+    font-weight: bold;
+}
+.mainAndaside-container{
+    display: flex;
+    margin-top: 5px;
+}
+.aside-profileSettings{
+    flex: 1;
+    height: 445px;
+    background-color: black;
+    display: flex;
+}
+.aside-profileSettings-menu{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+}
+.aside-profileSettings-menu li{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    transition:all 0.4s linear ;
+    -webkit-transition:all 0.4s linear ;
+    -moz-transition:all 0.4s linear ;
+    -ms-transition:all 0.4s linear ;
+    -o-transition:all 0.4s linear ;
+}
+.aside-profileSettings-menu li:hover{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.171);
+    }
+
+.aside-profileSettings-menu li a{
+text-decoration: none;
+font-family: work Sans;
+font-weight: bold;
+color: white;
+padding:20px 50px ;
+transition:all 0.4s linear ;
+}
+.aside-profileSettings-menu li a:hover{
+text-decoration: underline;
+
+}
+.main-profileSettings{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    margin-left: 5px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(42,38,38,1) 38%, rgba(255,255,255,1) 100%);
+}
+.formSettings{
+    flex: 13;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+
+
+}
+.formSettings div{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.formSettings div label{
+color:white;
+font-family: work Sans;
+font-weight: bold;
+display: flex;
+align-items: center;
+}
+.formSettings div input{
+    padding: 5px;
+    width: 250px;
+}
+input.submit{
+    align-self: start;
+    width: 300px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: work Sans;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.322);
+    border: 0.5s solid black;
+}
+
+.Informations-edit-etat{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: work Sans;
+    font-weight: bold;
+    
+}

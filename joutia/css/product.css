@@ -1,0 +1,290 @@
+@font-face {
+    font-family: work Sans;
+    src: url(../fontstext/WorkSans-Medium.ttf);
+    font-family: work sans l;
+    src: url(../fontstext/WorkSans-Light.ttf);
+}
+
+*{
+    transition: all 0.7s linear ;
+    -webkit-transition: all 0.7s linear ;
+    -moz-transition: all 0.7s linear ;
+    -ms-transition: all 0.7s linear ;
+    -o-transition: all 0.7s linear ;
+}
+.search-container{
+height: 80px;
+background-color: white;
+display: flex;
+justify-content: end;
+padding-right: 20px;
+align-items: center;
+    }
+.search-container input[type="text"]{ padding: 3PX; border-radius:10px 0px 10px 0px ; -webkit-border-radius:10px 0px 10px 0px ; -moz-border-radius:10px 0px 10px 0px ; -ms-border-radius:10px 0px 10px 0px ; -o-border-radius:10px 0px 10px 0px ;
+}
+.search-container input[type="submit"]{
+    padding: 3PX;
+    background-color: black;
+    color: white;
+    font-weight: work Sans;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    border-color: black;
+}
+.search-container input[type="submit"]:hover{ 
+    padding: 3PX;
+    background-color: white;
+    color: black;
+    font-weight: work Sans;
+
+}
+.p-rating .fa-star:hover{
+    color: rgb(255, 255, 0);}
+.p-addToCard:hover{
+        color: black;
+        background-color: white;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }    
+
+@media (min-width:1100px) {
+    .product-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0px 10px  20px 10px ;
+        }
+    .p-proudct-Container{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left:10px ;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.329);
+    }
+    .p-proudct-Container h2{
+        font-family: work Sans;
+        font-size: 18px;
+        font-weight: bold;
+    }        
+    .p-Product-Image{
+        width:240px ;
+        object-fit: cover;
+        align-self: center;
+    }
+    .p-devise{
+        font-weight: 700;
+        font-size: 14px;
+        font-family: work Sans;
+    }
+    .p-Price{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: work Sans;
+    }
+    .p-rating input{
+        display: none;
+        }
+    .p-rating  .fa-star{
+        font-size: 20px;
+        color: rgb(153, 153, 153);
+        }    
+    .p-addToCard{
+        margin-top: 10px;
+        padding: 10px;
+        align-self: center;
+        margin-bottom: 10px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }    
+}
+@media (min-width:780px) and (max-width:1100px)  {
+    .product-main{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        margin: 0px 10px  20px 10px ;
+        }
+    .p-proudct-Container{
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left:10px ;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.329);
+    }
+    .p-proudct-Container h2{
+        font-family: work Sans;
+        font-size: 14px;
+        font-weight: bold;
+    } 
+    .p-Product-Image{
+        width:190px ;
+        object-fit: cover;
+        align-self: center;
+    }
+    .p-devise{
+        font-weight: 700;
+        font-size: 10px;
+        font-family: work Sans;
+    } 
+    .p-Price{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: work Sans;
+    }
+    .p-rating input{
+        display: none;
+        }
+    .p-rating  .fa-star{
+        font-size: 16px;
+        color: rgb(153, 153, 153);
+        
+        } 
+    .p-addToCard{
+        margin-top: 6px;
+        padding: 7px;
+        align-self: center;
+        margin-bottom: 6px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }                 
+}
+@media (min-width:450px) and (max-width:780px)  {
+    .product-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0px 10px  20px 10px ;
+        }
+    .p-proudct-Container{
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left:10px ;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.329);
+    }
+    .p-proudct-Container h2{
+        font-family: work Sans;
+        font-size: 14px;
+        font-weight: bold;
+    } 
+    .p-Product-Image{
+        width:190px ;
+        object-fit: cover;
+        align-self: center;
+    }
+    .p-devise{
+        font-weight: 700;
+        font-size: 10px;
+        font-family: work Sans;
+    } 
+    .p-Price{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: work Sans;
+    }
+    .p-rating input{
+        display: none;
+        }
+    .p-rating  .fa-star{
+        font-size: 16px;
+        color: rgb(153, 153, 153);
+        
+        } 
+    .p-addToCard{
+        margin-top: 6px;
+        padding: 7px;
+        align-self: center;
+        margin-bottom: 6px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }                 
+}
+@media (min-width:300px) and (max-width:450px)  {
+    .product-main{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px 10px  20px 10px ;
+        }
+    .p-proudct-Container{
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left:10px ;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.329);
+    }
+    .p-proudct-Container h2{
+        font-family: work Sans;
+        font-size: 14px;
+        font-weight: bold;
+    } 
+    .p-Product-Image{
+        width:190px ;
+        object-fit: cover;
+        align-self: center;
+    }
+    .p-devise{
+        font-weight: 700;
+        font-size: 10px;
+        font-family: work Sans;
+    } 
+    .p-Price{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: work Sans;
+    }
+    .p-rating input{
+        display: none;
+        }
+    .p-rating  .fa-star{
+        font-size: 16px;
+        color: rgb(153, 153, 153);
+        
+        } 
+    .p-addToCard{
+        margin-top: 6px;
+        padding: 7px;
+        align-self: center;
+        margin-bottom: 6px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }                 
+}

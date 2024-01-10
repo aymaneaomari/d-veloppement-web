@@ -1,0 +1,224 @@
+@font-face {
+    font-family: work Sans;
+    src: url(../fontstext/WorkSans-Medium.ttf);
+    font-family: work sans l;
+    src: url(../fontstext/WorkSans-Light.ttf);
+}
+.about{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+@media (min-width:1240px) {
+    
+    .about-grid{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 20px;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .about .first-text{
+        margin-bottom: 25px;
+        display: block;
+        font-size: 44px;
+        font-family: work Sans l;
+        text-transform: uppercase;
+        color: black;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .about-grid img{
+        object-fit: contain;
+        height: 670px;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+        
+    }
+    .text-About{
+        text-align: justify;
+        font-size: 16px;
+        font-family: work sans;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+                }
+    }
+@media (min-width:1080px) and (max-width:1240px) {
+
+    .about-grid{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 20px;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .about .first-text{
+        margin-bottom: 25px;
+        display: block;
+        font-size: 44px;
+        font-family: work Sans l;
+        text-transform: uppercase;
+        color: black;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .about-grid img{
+        object-fit: contain;
+        height: 670px;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+        
+    }
+    .text-About{
+        text-align: justify;
+        font-size: 14px;
+        font-family: work sans;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+                }
+    }
+@media (max-width:1080px) and (min-width:960px) {
+    .about-grid{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 20px;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .about .first-text{
+        margin-bottom: 25px;
+        display: block;
+        font-size: 30px;
+        font-family: work Sans l;
+        text-transform: uppercase;
+        color: black;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .about-grid img{
+        object-fit: contain;
+        height: 640px;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .text-About{
+        text-align: justify;
+        font-size: 13px;
+        font-family: work sans;
+        float: inline-start;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+        }
+    }
+
+@media (max-width:960px)  and (min-width:840px) {
+    .about-grid{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 20px;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .about .first-text{
+        margin-bottom: 25px;
+        display: block;
+        font-size: 30px;
+        font-family: work Sans l;
+        text-transform: uppercase;
+        color: black;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .about-grid img{
+        object-fit: contain;
+        height: 600px;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+    }
+    .text-About{
+        text-align: justify;
+        font-size: 11px;
+        font-family: work sans;
+        float: inline-start;
+        transition: all 1s linear;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+        }
+    }
+@media (max-width:840px)  {
+        .about-grid{
+            display: none;
+            grid-template-columns: 2fr 3fr;
+            column-gap: 20px;
+
+        }
+        .about .first-text{
+            margin-bottom: 25px;
+            display: NONE;
+            font-size: 30px;
+            font-family: work Sans l;
+            text-transform: uppercase;
+            color: black;
+
+
+        }
+        .about-grid img{
+            object-fit: contain;
+            height: 600px;
+
+
+        }
+        .text-About{
+            text-align: justify;
+            font-size: 11px;
+            font-family: work sans;
+            float: inline-start;
+            }
+        }
